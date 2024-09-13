@@ -1,0 +1,20 @@
+.searchbarcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 15px;
+}
+.searchbarcontainer h3 {
+  font-size: 2.4vw;
+}
+.searchbarcontainer h4 {
+  font-size: 2vw;
+}
+
+.searchbarcontainer .searchbar input {
+  padding: 10px;
+  width: 25vw;
+  font-size: 15px;
+}

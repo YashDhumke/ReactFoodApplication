@@ -1,0 +1,20 @@
+.ingredientbox {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  width: 15%;
+  border-radius: 12px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* border: 1px solid #000; */
+}
+.ingredientbox .ingredientimg {
+  cursor: pointer;
+}
+.ingredientbox .ingredientimg:hover {
+  transform: rotate(75deg);
+}

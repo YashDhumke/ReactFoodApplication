@@ -1,0 +1,10 @@
+.heading {
+  text-align: center;
+  margin: 0.5px auto;
+  font-size: 3vw;
+  padding: 10px;
+}
+.headercontainer {
+  background-color: antiquewhite;
+  color: #ebe23e;
+}

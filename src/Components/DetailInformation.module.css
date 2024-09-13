@@ -1,0 +1,69 @@
+.detailcontainer {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 20px;
+  border: 20px;
+  width: 90%;
+  height: auto;
+  margin: 1rem auto;
+  background-image: url("https://th.bing.com/th/id/OIP.6cKInRXTFlK3QjweuqC4oQHaFS?rs=1&pid=ImgDetMain");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.detailcontainerupper {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  width: 80%;
+  margin: 10px auto;
+  gap: 5rem;
+  padding: 30px;
+}
+.detailcontainerupper .detailimg {
+  height: 40vh;
+  width: 50%;
+}
+.detailcontainerupper .detailimg img {
+  height: 100%;
+  width: 100%;
+}
+.detailcontainerupper .detailtext {
+  top: 0;
+}
+.detailcontainerupper .detailtext .detailheading h2 {
+  font-size: 2vw;
+  color: #dd7230;
+}
+.detailcontainerupper .detailtext ul {
+  margin-top: 1rem;
+}
+.detailcontainerupper .detailtext ul li {
+  list-style: none;
+  line-height: 5vh;
+}
+.detailcontainerupper .detailtext ul li h3 {
+  font-size: 1.8vw;
+  color: #f4c95d;
+}
+.detailcontainer .detailcontainerbottom {
+  text-align: center;
+}
+.detailcontainer .detailcontainerbottom .instruction {
+  line-height: 5vh;
+  margin: 1rem auto;
+}
+.detailcontainer .detailcontainerbottom .instruction li {
+  font-size: 1.8vw;
+}
+
+.detailcontainerbottom .ingredients .ingredientcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  /* width: 80%; */
+  /* height: auto; */
+  /* border: 1px solid #000; */
+  gap: 1rem;
+}
